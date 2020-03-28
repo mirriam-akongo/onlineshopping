@@ -5,14 +5,15 @@ body {
     color: indigo;
   }
  form {
-      border: 3px solid indigo;
-      margin: 0 auto; 
-      width:400px;
-      background-color: floralwhite;
-      padding: 20px;
-      font-family: 'Lobster', cursive;
-      font-size: 18px;
-}
+   
+    border: 3px solid indigo;
+    margin: 0 auto; 
+    width:400px;
+    background-color: floralwhite;
+    padding: 20px;
+    font-family: 'Lobster', cursive;
+    font-size: 18px;
+  }
   
   * {
     box-sizing: border-box;
@@ -21,7 +22,7 @@ body {
   .container {
     position: center;
     right: 0;
-    margin: 20px;
+    margin: 40px;
     max-width: 300px;
     padding: 16px;
     background-color: floralwhite;
@@ -94,6 +95,15 @@ body {
     width: 40%;
     border-radius: 50%;
     border: 3px solid indigo;
+    float: center;
+    height: 100px;
+    margin-top: 80px;
+    margin-bottom: 0px;
+
+  }
+  h3{
+    margin-top: 110px;
+    margin-bottom: 0px;
   }
   
   span.psw {
@@ -155,14 +165,16 @@ hr {
     position: fixed;
     top: 0;   
     width: 100%; 
+    
+    
   }
   
   
   .navbar ul li{
+  margin-top: 20px;
   display: inline;
-  list-style: none;
-  
-  padding: 10px;
+  list-style: none;  
+  padding: 20px;
   font-family: 'Lobster', cursive;
   text-decoration: none;
   overflow: hidden 
@@ -236,8 +248,10 @@ hr {
     cursor: pointer;
   }
   .search-box{
+    margin-top: 25px;
+    float: left;
     display: inline-flex;
-    width: 50%;
+    width: 40%;
   }
   .fa-search{
     color: floralwhite;

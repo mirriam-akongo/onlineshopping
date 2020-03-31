@@ -98,7 +98,7 @@ body {
     float: center;
     height: 100px;
     margin-top: 80px;
-    margin-bottom: 0px;
+    margin-bottom: -40px;
 
   }
   h3{
@@ -120,6 +120,25 @@ body {
     .registerbtn {
        width: 100%;
     }
+    .nav{
+      height: 118px;
+      border-bottom: 0;
+    }
+    .search-box{
+      width: 100%;
+    }
+    .navbar{
+      width: 100%;
+    }
+    .navbar ul{
+      margin: 10px 0;
+      width: 100%;
+    }
+    .navbar ul li{
+      height: 57;
+      width: 100%;
+    }
+    
 }
 
 hr {
@@ -169,9 +188,11 @@ hr {
     
   }
   
-  
+  .navbar li span{
+    padding-left: 5px;
+  }
   .navbar ul li{
-  margin-top: 20px;
+  margin-top: 20px; 
   display: inline;
   list-style: none;  
   padding: 20px;
@@ -256,3 +277,99 @@ hr {
   .fa-search{
     color: floralwhite;
   }
+  .fa-shopping-basket{
+    margin-right: 5px;
+  }
+.wrapper{
+  width: 705px;
+  margin: 20px auto;
+  padding: 20px;
+}
+h2{
+  font-size: 12p;
+  display: block;
+  /* border: 1px solid indigo; */
+  margin: 0 0 10px 0;
+  padding: 0 0 5px 0;
+}
+
+.item img{
+  display: block;
+  margin: auto;
+}
+.items {
+  margin: 20px 0;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  padding-bottom: 100px;
+}
+.item {
+  background-color: floralwhite;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  position: relative;
+  overflow: hidden;
+  width: 205px;
+  float: left;
+  padding: 10px;
+}
+.item:hover .cart1,
+.item:hover .cart2,
+.item:hover .cart3 {
+  bottom: 50px;
+  opacity: 1;
+  padding: 10px;
+  text-decoration: none;
+}
+
+#file {
+  padding: 10px;
+  color: floralwhite;
+  background-color: indigo;
+  border: 1px solid indigo;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#file:hover{
+  background-color: green;
+  color: indigo;
+}
+#custom-text {
+  margin-left: 10px;
+  font-family: 'Lobster', cursive;
+  color: green;
+}
+
+.postbtn {
+    background-color: green;
+    border: none;
+    color: floralwhite;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 30px;
+    cursor: pointer;
+    border-radius: 12px;
+    font-family: 'Lobster';
+    font-size: 19px;
+    
+  }
+  .postbtn:hover {
+    opacity: 1;
+    background-color: indigo;
+    color: floralwhite;
+    
+  }
+  .postbtn a{
+    color: floralwhite;
+   
+    text-decoration: none;
+   
+   
+  }
+
